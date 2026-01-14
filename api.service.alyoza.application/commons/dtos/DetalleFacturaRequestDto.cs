@@ -1,4 +1,4 @@
-namespace api.service.ayoza.application.commons.dtos;
+namespace api.service.alyoza.application.commons.dtos;
 
 public sealed record DetalleFacturaRequestDto(
     int IdFactura,

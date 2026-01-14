@@ -1,18 +1,18 @@
-using api.service.ayoza.application.commons.dtos;
-using api.service.ayoza.application.commons.mappings;
-using api.service.ayoza.application.ifeatures;
+using api.service.alyoza.application.commons.dtos;
+using api.service.alyoza.application.commons.mappings;
+using api.service.alyoza.application.ifeatures;
 using api.service.alyoza.infrastructure.context.factura;
 
-namespace api.service.ayoza.application.features;
+namespace api.service.alyoza.application.features;
 
 public class FacturaHandler : IFacturaHandler
 {
     private readonly Mappings _mapper;
     private readonly IFacturaContext _context;
 
-    public FacturaHandler(IFacturaContext context)
+    public FacturaHandler(IFacturaContext context, Mappings mapper)
     {
-        _mapper = new Mappings();
+        _mapper = mapper;
         _context = context;
     }
 

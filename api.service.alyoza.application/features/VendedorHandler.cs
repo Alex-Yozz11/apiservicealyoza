@@ -1,18 +1,18 @@
-using api.service.ayoza.application.commons.dtos;
-using api.service.ayoza.application.commons.mappings;
-using api.service.ayoza.application.ifeatures;
+using api.service.alyoza.application.commons.dtos;
+using api.service.alyoza.application.commons.mappings;
+using api.service.alyoza.application.ifeatures;
 using api.service.alyoza.infrastructure.context.vendedor;
 
-namespace api.service.ayoza.application.features;
+namespace api.service.alyoza.application.features;
 
 public class VendedorHandler : IVendedorHandler
 {
     private readonly Mappings _mapper;
     private readonly IVendedorContext _context;
 
-    public VendedorHandler(IVendedorContext context)
+    public VendedorHandler(IVendedorContext context, Mappings mapper)
     {
-        _mapper = new Mappings();
+        _mapper = mapper;
         _context = context;
     }
 

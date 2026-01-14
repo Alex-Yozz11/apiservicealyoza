@@ -1,6 +1,6 @@
-using api.service.ayoza.application.commons.dtos;
+using api.service.alyoza.application.commons.dtos;
 
-namespace api.service.ayoza.application.ifeatures;
+namespace api.service.alyoza.application.ifeatures;
 
 public interface ITipoVehiculoHandler
 {

@@ -1,18 +1,18 @@
-using api.service.ayoza.application.commons.dtos;
-using api.service.ayoza.application.commons.mappings;
-using api.service.ayoza.application.ifeatures;
+using api.service.alyoza.application.commons.dtos;
+using api.service.alyoza.application.commons.mappings;
+using api.service.alyoza.application.ifeatures;
 using api.service.alyoza.infrastructure.context.tipovehiculo;
 
-namespace api.service.ayoza.application.features;
+namespace api.service.alyoza.application.features;
 
 public class TipoVehiculoHandler : ITipoVehiculoHandler
 {
     private readonly Mappings _mapper;
     private readonly ITipoVehiculoContext _context;
 
-    public TipoVehiculoHandler(ITipoVehiculoContext context)
+    public TipoVehiculoHandler(ITipoVehiculoContext context, Mappings mapper)
     {
-        _mapper = new Mappings();
+        _mapper = mapper;
         _context = context;
     }
 

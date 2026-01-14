@@ -1,18 +1,18 @@
-using api.service.ayoza.application.commons.dtos;
-using api.service.ayoza.application.commons.mappings;
-using api.service.ayoza.application.ifeatures;
+using api.service.alyoza.application.commons.dtos;
+using api.service.alyoza.application.commons.mappings;
+using api.service.alyoza.application.ifeatures;
 using api.service.alyoza.infrastructure.context.detallefactura;
 
-namespace api.service.ayoza.application.features;
+namespace api.service.alyoza.application.features;
 
 public class DetalleFacturaHandler : IDetalleFacturaHandler
 {
     private readonly Mappings _mapper;
     private readonly IDetalleFacturaContext _context;
 
-    public DetalleFacturaHandler(IDetalleFacturaContext context)
+    public DetalleFacturaHandler(IDetalleFacturaContext context, Mappings mapper)
     {
-        _mapper = new Mappings();
+        _mapper = mapper;
         _context = context;
     }
 
@@ -28,7 +28,7 @@ public class DetalleFacturaHandler : IDetalleFacturaHandler
     public async Task<(bool, string?)> UpdateAsync(DetalleFacturaRequestDto request, int id)
     {
         var entity = _mapper.ToRequestDto(request);
-        entity.IdDetalleFactura = id;
+        entity.IdDetalle = id;
         return await _context.UpdateAsync(entity);
     }
 
