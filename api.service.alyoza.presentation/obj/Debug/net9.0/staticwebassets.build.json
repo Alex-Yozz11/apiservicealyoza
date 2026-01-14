@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "RN06csjWi8E7Dp75whSO9Vi948dyISZKhvmEQVZw4DA=",
+  "Source": "api.service.alyoza.presentation",
+  "BasePath": "_content/api.service.alyoza.presentation",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

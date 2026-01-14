@@ -1,0 +1,17 @@
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/bin/Debug/net9.0/api.service.alyoza.infrastructure.deps.json
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/bin/Debug/net9.0/api.service.alyoza.infrastructure.runtimeconfig.json
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/bin/Debug/net9.0/api.service.alyoza.infrastructure.dll
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/bin/Debug/net9.0/api.service.alyoza.infrastructure.pdb
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/bin/Debug/net9.0/api.service.alyoza.domain.dll
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/bin/Debug/net9.0/api.service.alyoza.domain.pdb
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/obj/Debug/net9.0/api.service.alyoza.infrastructure.csproj.AssemblyReference.cache
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/obj/Debug/net9.0/api.service.alyoza.infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/obj/Debug/net9.0/api.service.alyoza.infrastructure.AssemblyInfoInputs.cache
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/obj/Debug/net9.0/api.service.alyoza.infrastructure.AssemblyInfo.cs
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/obj/Debug/net9.0/api.service.alyoza.infrastructure.csproj.CoreCompileInputs.cache
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/obj/Debug/net9.0/api.serv.5E8E1BF4.Up2Date
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/obj/Debug/net9.0/api.service.alyoza.infrastructure.dll
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/obj/Debug/net9.0/refint/api.service.alyoza.infrastructure.dll
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/obj/Debug/net9.0/api.service.alyoza.infrastructure.pdb
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/obj/Debug/net9.0/api.service.alyoza.infrastructure.genruntimeconfig.cache
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/obj/Debug/net9.0/ref/api.service.alyoza.infrastructure.dll

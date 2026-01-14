@@ -1,0 +1,11 @@
+/home/user/apiservicealyoza/api.service.alyoza.domain/bin/Debug/net9.0/api.service.alyoza.domain.deps.json
+/home/user/apiservicealyoza/api.service.alyoza.domain/bin/Debug/net9.0/api.service.alyoza.domain.dll
+/home/user/apiservicealyoza/api.service.alyoza.domain/bin/Debug/net9.0/api.service.alyoza.domain.pdb
+/home/user/apiservicealyoza/api.service.alyoza.domain/obj/Debug/net9.0/api.service.alyoza.domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/user/apiservicealyoza/api.service.alyoza.domain/obj/Debug/net9.0/api.service.alyoza.domain.AssemblyInfoInputs.cache
+/home/user/apiservicealyoza/api.service.alyoza.domain/obj/Debug/net9.0/api.service.alyoza.domain.AssemblyInfo.cs
+/home/user/apiservicealyoza/api.service.alyoza.domain/obj/Debug/net9.0/api.service.alyoza.domain.csproj.CoreCompileInputs.cache
+/home/user/apiservicealyoza/api.service.alyoza.domain/obj/Debug/net9.0/api.service.alyoza.domain.dll
+/home/user/apiservicealyoza/api.service.alyoza.domain/obj/Debug/net9.0/refint/api.service.alyoza.domain.dll
+/home/user/apiservicealyoza/api.service.alyoza.domain/obj/Debug/net9.0/api.service.alyoza.domain.pdb
+/home/user/apiservicealyoza/api.service.alyoza.domain/obj/Debug/net9.0/ref/api.service.alyoza.domain.dll

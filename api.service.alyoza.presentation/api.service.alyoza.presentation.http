@@ -1,0 +1,6 @@
+@api.service.alyoza.presentation_HostAddress = http://localhost:5262
+
+GET {{api.service.alyoza.presentation_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
