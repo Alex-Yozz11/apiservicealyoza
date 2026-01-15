@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("api.service.alyoza.infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5094d7bb197a62d051ca8be9c7939d232d520c15")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+53bfedaaa2dbbe12aef8bb2345b53fcf95cb539c")]
 [assembly: System.Reflection.AssemblyProductAttribute("api.service.alyoza.infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("api.service.alyoza.infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

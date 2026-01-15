@@ -24,7 +24,7 @@ public partial class Vehiculo
     public int? Anio { get; set; }
 
     [Column("precio")]
-    public decimal Precio { get; set; }   // 👈 sin [Precision]
+    public decimal Precio { get; set; }   
 
     [Column("id_tipo_vehiculo")]
     public int IdTipoVehiculo { get; set; }

@@ -1,14 +1,13 @@
-using api.service.ayoza.application.features;
-using api.service.ayoza.application.ifeatures;
+using api.service.alyoza.application.features;
+using api.service.alyoza.application.ifeatures;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace api.service.ayoza.application;
+namespace api.service.alyoza.application;
 
 public static class DependencyInjection
 {
     public static IServiceCollection AddApplicationServices(this IServiceCollection services)
     {
-        // Handlers
         services.AddScoped<IClienteHandler, ClienteHandler>();
         services.AddScoped<IFacturaHandler, FacturaHandler>();
         services.AddScoped<IVehiculoHandler, VehiculoHandler>();

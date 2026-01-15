@@ -5,7 +5,7 @@ namespace api.service.alyoza.infrastructure.context;
 
 public partial class AlyozaDbContext(DbContextOptions<AlyozaDbContext> options) : DbContext(options)
 {
-    // DbSets obligatorios
+    
     public required DbSet<Cliente> Clientes { get; set; }
     public required DbSet<DetalleFactura> DetalleFacturas { get; set; }
     public required DbSet<Factura> Facturas { get; set; }
@@ -13,7 +13,7 @@ public partial class AlyozaDbContext(DbContextOptions<AlyozaDbContext> options) 
     public required DbSet<Vehiculo> Vehiculos { get; set; }
     public required DbSet<Vendedor> Vendedors { get; set; }
 
-    // Arrays estáticos para enums
+    
     private static readonly string[] _aalLevel = ["aal1", "aal2", "aal3"];
     private static readonly string[] _codeChallengeMethod = ["s256", "plain"];
     private static readonly string[] _factorStatus = ["unverified", "verified"];
@@ -32,7 +32,7 @@ public partial class AlyozaDbContext(DbContextOptions<AlyozaDbContext> options) 
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        // Enums y extensiones
+        
         modelBuilder
             .HasPostgresEnum("auth", "aal_level", _aalLevel)
             .HasPostgresEnum("auth", "code_challenge_method", _codeChallengeMethod)
@@ -52,7 +52,7 @@ public partial class AlyozaDbContext(DbContextOptions<AlyozaDbContext> options) 
             .HasPostgresExtension("graphql", "pg_graphql")
             .HasPostgresExtension("vault", "supabase_vault");
 
-        // Configuración de Cliente
+        
         modelBuilder.Entity<Cliente>(entity =>
         {
             entity.HasKey(e => e.IdCliente).HasName("clientes_pkey");
@@ -60,14 +60,14 @@ public partial class AlyozaDbContext(DbContextOptions<AlyozaDbContext> options) 
             entity.Property(e => e.CreadoEn).HasDefaultValueSql("CURRENT_TIMESTAMP");
         });
 
-        // Configuración de DetalleFactura
+        
         modelBuilder.Entity<DetalleFactura>(entity =>
         {
             entity.HasKey(e => e.IdDetalle).HasName("detalle_factura_pkey");
             entity.Property(e => e.Activo).HasDefaultValue(true);
             entity.Property(e => e.CreadoEn).HasDefaultValueSql("CURRENT_TIMESTAMP");
 
-            // Precisión de decimales
+            
             entity.Property(e => e.PrecioUnitario).HasPrecision(10, 2);
             entity.Property(e => e.SubtotalLinea).HasPrecision(10, 2);
 
@@ -80,7 +80,7 @@ public partial class AlyozaDbContext(DbContextOptions<AlyozaDbContext> options) 
                 .HasConstraintName("fk_detalle_vehiculo");
         });
 
-        // Configuración de Factura
+        
         modelBuilder.Entity<Factura>(entity =>
         {
             entity.HasKey(e => e.IdFactura).HasName("facturas_pkey");
@@ -90,7 +90,7 @@ public partial class AlyozaDbContext(DbContextOptions<AlyozaDbContext> options) 
             entity.Property(e => e.Fecha).HasDefaultValueSql("CURRENT_TIMESTAMP");
             entity.Property(e => e.Impuesto).HasDefaultValueSql("0");
 
-            // Precisión de decimales
+            
             entity.Property(e => e.Subtotal).HasPrecision(10, 2);
             entity.Property(e => e.Impuesto).HasPrecision(10, 2);
             entity.Property(e => e.Total).HasPrecision(10, 2);
@@ -104,7 +104,7 @@ public partial class AlyozaDbContext(DbContextOptions<AlyozaDbContext> options) 
                 .HasConstraintName("fk_factura_vendedor");
         });
 
-        // Configuración de TipoVehiculo
+        
         modelBuilder.Entity<TipoVehiculo>(entity =>
         {
             entity.HasKey(e => e.IdTipoVehiculo).HasName("tipo_vehiculos_pkey");
@@ -112,14 +112,14 @@ public partial class AlyozaDbContext(DbContextOptions<AlyozaDbContext> options) 
             entity.Property(e => e.CreadoEn).HasDefaultValueSql("CURRENT_TIMESTAMP");
         });
 
-        // Configuración de Vehiculo
+        
         modelBuilder.Entity<Vehiculo>(entity =>
         {
             entity.HasKey(e => e.IdVehiculo).HasName("vehiculos_pkey");
             entity.Property(e => e.Activo).HasDefaultValue(true);
             entity.Property(e => e.CreadoEn).HasDefaultValueSql("CURRENT_TIMESTAMP");
 
-            // Precisión de decimales
+            
             entity.Property(e => e.Precio).HasPrecision(10, 2);
 
             entity.HasOne(d => d.IdTipoVehiculoNavigation).WithMany(p => p.Vehiculos)
@@ -127,7 +127,7 @@ public partial class AlyozaDbContext(DbContextOptions<AlyozaDbContext> options) 
                 .HasConstraintName("fk_vehiculo_tipo");
         });
 
-        // Configuración de Vendedor
+        
         modelBuilder.Entity<Vendedor>(entity =>
         {
             entity.HasKey(e => e.IdVendedor).HasName("vendedores_pkey");
