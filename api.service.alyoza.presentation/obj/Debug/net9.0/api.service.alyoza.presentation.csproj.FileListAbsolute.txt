@@ -135,3 +135,8 @@
 /home/user/apiservicealyoza/api.service.alyoza.presentation/obj/Debug/net9.0/api.service.alyoza.presentation.pdb
 /home/user/apiservicealyoza/api.service.alyoza.presentation/obj/Debug/net9.0/api.service.alyoza.presentation.genruntimeconfig.cache
 /home/user/apiservicealyoza/api.service.alyoza.presentation/obj/Debug/net9.0/ref/api.service.alyoza.presentation.dll
+/home/user/apiservicealyoza/api.service.alyoza.presentation/bin/Debug/net9.0/Riok.Mapperly.Abstractions.dll
+/home/user/apiservicealyoza/api.service.alyoza.presentation/bin/Debug/net9.0/Swashbuckle.AspNetCore.Swagger.dll
+/home/user/apiservicealyoza/api.service.alyoza.presentation/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerGen.dll
+/home/user/apiservicealyoza/api.service.alyoza.presentation/bin/Debug/net9.0/Swashbuckle.AspNetCore.SwaggerUI.dll
+/home/user/apiservicealyoza/api.service.alyoza.presentation/obj/Debug/net9.0/api.service.alyoza.presentation.sourcelink.json

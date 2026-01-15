@@ -15,3 +15,4 @@
 /home/user/apiservicealyoza/api.service.alyoza.application/obj/Debug/net9.0/refint/api.service.alyoza.application.dll
 /home/user/apiservicealyoza/api.service.alyoza.application/obj/Debug/net9.0/api.service.alyoza.application.pdb
 /home/user/apiservicealyoza/api.service.alyoza.application/obj/Debug/net9.0/ref/api.service.alyoza.application.dll
+/home/user/apiservicealyoza/api.service.alyoza.application/obj/Debug/net9.0/api.service.alyoza.application.sourcelink.json

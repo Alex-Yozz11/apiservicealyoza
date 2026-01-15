@@ -15,3 +15,4 @@
 /home/user/apiservicealyoza/api.service.alyoza.infrastructure/obj/Debug/net9.0/api.service.alyoza.infrastructure.pdb
 /home/user/apiservicealyoza/api.service.alyoza.infrastructure/obj/Debug/net9.0/api.service.alyoza.infrastructure.genruntimeconfig.cache
 /home/user/apiservicealyoza/api.service.alyoza.infrastructure/obj/Debug/net9.0/ref/api.service.alyoza.infrastructure.dll
+/home/user/apiservicealyoza/api.service.alyoza.infrastructure/obj/Debug/net9.0/api.service.alyoza.infrastructure.sourcelink.json

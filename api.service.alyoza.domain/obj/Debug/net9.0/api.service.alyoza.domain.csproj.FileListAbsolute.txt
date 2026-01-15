@@ -9,3 +9,4 @@
 /home/user/apiservicealyoza/api.service.alyoza.domain/obj/Debug/net9.0/refint/api.service.alyoza.domain.dll
 /home/user/apiservicealyoza/api.service.alyoza.domain/obj/Debug/net9.0/api.service.alyoza.domain.pdb
 /home/user/apiservicealyoza/api.service.alyoza.domain/obj/Debug/net9.0/ref/api.service.alyoza.domain.dll
+/home/user/apiservicealyoza/api.service.alyoza.domain/obj/Debug/net9.0/api.service.alyoza.domain.sourcelink.json
